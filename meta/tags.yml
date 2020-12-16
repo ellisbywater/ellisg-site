@@ -11,3 +11,7 @@ tags:
     name: mdx
   - slug: markdown
     name: markdown
+  - slug: algorithms
+    name: algorithms
+  - slug: data-structures
+    name: data-structures
