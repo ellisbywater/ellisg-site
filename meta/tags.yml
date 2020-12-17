@@ -1,17 +1,11 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
   - slug: algorithms
     name: algorithms
   - slug: data-structures
     name: data-structures
+  - slug: c#
+    name: csharp
+  - slug: react
+    name: react
+  - slug: arfoundation
+    name: arfoundation

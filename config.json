@@ -1,19 +1,25 @@
 {
   "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "site_title": "Ellis G's Home",
+  "site_description": "Blog & Portfolio of Ellis Garaudy",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Ellis Garaudy"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Software Engineer"
     },
     {
-      "keyword": "React"
+      "keyword": "Blog"
+    },
+    {
+      "keyword": "Portfolio"
+    },
+    {
+      "keyword": "Resume"
     }
   ],
   "posts_per_page": 5,
   "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "github_account": "ellisbywater"
 }

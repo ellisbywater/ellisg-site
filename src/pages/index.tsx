@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import { Divider, Text, Center, VStack, Box } from "@chakra-ui/react";
 
 export default function Index() {
   return (
@@ -12,12 +13,27 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
-          </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+        <VStack>
+          <Center marginBottom="4">
+           <Box>
+            <h1>
+              Hi, I'm Ellis<span className="fancy">.</span>
+            </h1>
+           </Box>
+            
+          </Center>
+          <Center marginBottom="6" padding="2" bg="black">
+            <Text fontSize="2xl" color="white">Programmer, Tinkerer, & Entrepreneur</Text>
+          </Center>
+          <Center>
+            <SocialList />
+          </Center>
+
+        </VStack>
+          
+          
+
+          
         </div>
       </div>
       <style jsx>{`

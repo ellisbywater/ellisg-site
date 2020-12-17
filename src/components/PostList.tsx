@@ -36,6 +36,7 @@ export default function PostList({ posts, tags, pagination }: Props) {
       <ul className={"categories"}>
         {tags.map((it, i) => (
           <li key={i}>
+            
             <TagLink tag={it} />
           </li>
         ))}
